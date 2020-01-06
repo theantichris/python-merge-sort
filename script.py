@@ -7,3 +7,8 @@ def merge_sort(items):
     right_split = items[middle_index:]
 
     return middle_index, left_split, right_split
+
+def merge(left, right):
+    result = []
+
+    return result
