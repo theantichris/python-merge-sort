@@ -17,4 +17,10 @@ def merge(left, right):
         else:
             result.append(right.pop(0))
 
+    if left:
+        result += left
+
+    if right:
+        result += right
+
     return result
