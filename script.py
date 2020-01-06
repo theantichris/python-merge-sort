@@ -11,4 +11,10 @@ def merge_sort(items):
 def merge(left, right):
     result = []
 
+    while left and right:
+        if left[0] < right[0]:
+            result.append(left.pop(0))
+        else:
+            result.append(right.pop(0))
+
     return result
